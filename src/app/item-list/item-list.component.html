@@ -1,0 +1,11 @@
+
+
+<div class="item-list-container  d-flex justify-content-center">
+  <ul class="item-list">
+    <li *ngFor="let item of items" class="item">
+      <span class="item-name">{{ item.name }}</span>
+      <span class="item-description">{{ item.description }}</span>
+      <span class="item-price">${{ item.price }}</span>
+    </li>
+  </ul>
+</div>
